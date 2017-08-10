@@ -15,7 +15,8 @@ app.get('/counter', function (req, res){
 
 app.get('/submit-name/:name', function (req, res) {
     var name = req.params.name;
-    re.send(JSON.stringly(name));
+    
+    re.send(JSON.stringify(name));
 });
 
 
