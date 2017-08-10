@@ -18,6 +18,17 @@ button.onclick = function(){
  request.send(null);
 };
 
+var nameInput = document.getElementById('name');
+var submit = document.getElementById('namebtn');
+submit.onclick = function() {
+    var name = nameInput.value;
+    
+    var url = document.getElementById('namelist');
+    url.innerHTML = name;
+};
+
+
+
 var commentsTextarea = document.getElementById('comments');
 var submit = document.getElementById('submitbtn');
 submit.onclick = function() {
