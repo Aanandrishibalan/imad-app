@@ -20,4 +20,6 @@ button.onclick = function(){
 
 var commentsTextarea = document.getElementById('comments');
 var submit = document.getElementById('submitbtn');
-submit.onclick("comment");
+submit.onclick = function() {
+    console.log("comment");
+};
