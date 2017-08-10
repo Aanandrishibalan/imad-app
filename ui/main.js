@@ -17,3 +17,7 @@ button.onclick = function(){
  request.open('GET', 'http://anandrajd48.imad.hasura-app.io/counter', true);
  request.send(null);
 };
+
+var commentsTextarea = document.getElementById('comments');
+var submit = document.getElementById('submitbtn');
+submit.onclick("comment");
