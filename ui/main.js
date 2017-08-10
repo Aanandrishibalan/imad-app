@@ -21,5 +21,8 @@ button.onclick = function(){
 var commentsTextarea = document.getElementById('comments');
 var submit = document.getElementById('submitbtn');
 submit.onclick = function() {
-    console.log("comment");
+    var comments = commentsTextarea.value;
+    
+    var url = document.getElementById('comment');
+    url.innerHTML = comments;
 };
