@@ -70,7 +70,19 @@ var htmltemplate=`
     <a href="/"> HOME</a>
     <h1> ${heading}</h1>
         ${content}
-            
+             <div>
+	    <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+Hey... say something!
+</textarea>
+<input type="submit" value="Submit" id="submitbtn">
+</div>
+<br>
+<div id="comment">
+    
+</div>
+
+        <script type="text/javascript" src="/ui/main.js">
+        </script>
     
     </div>
     
