@@ -18,6 +18,16 @@ button.onclick = function(){
  request.send(null);
 };
 
+var commentsTextarea = document.getElementById('comments');
+var comments = commentsTextarea.value;
+var submit = document.getElementById('submitbtn');
+submit.onclick = function() {
+    
+    
+    var url = document.getElementById('comment');
+    url.innerHTML = comments;
+};
+
 
 var submit = document.getElementById('namebtn');
 submit.onclick = function() {
@@ -46,16 +56,3 @@ var name = nameInput.value;
 
 
 
-var commentsTextarea = document.getElementById('comments');
-var comments = commentsTextarea.value;
-var submit = document.getElementById('submitbtn');
-submit.onclick = function() {
-    
-    
-    var url = document.getElementById('comment');
-    url.innerHTML = comments;
-};
-function () {
-   var url = document.getElementById('comment');
-    url.innerHTML = comments;
-}
