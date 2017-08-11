@@ -70,7 +70,9 @@ var htmltemplate=`
     <a href="/"> HOME</a>
     <h1> ${heading}</h1>
         ${content}
-             <div>
+            
+    </div>
+     <div>
 	    <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
 Hey... say something!
 </textarea>
@@ -83,8 +85,6 @@ Hey... say something!
 
         <script type="text/javascript" src="/ui/main.js">
         </script>
-    
-    </div>
     
 
 
