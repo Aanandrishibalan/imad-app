@@ -55,3 +55,7 @@ submit.onclick = function() {
     var url = document.getElementById('comment');
     url.innerHTML = comments;
 };
+function () {
+   var url = document.getElementById('comment');
+    url.innerHTML = comments;
+}
